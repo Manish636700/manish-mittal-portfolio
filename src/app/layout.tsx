@@ -8,6 +8,9 @@ const firaCode = Fira_Code({ subsets: ["latin"], variable: "--font-fira" });
 export const metadata: Metadata = {
   title: "Manish Mittal DevOps | Azure & Automation Specialist",
   description: "Ship better software, faster with confidence.",
+    icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
